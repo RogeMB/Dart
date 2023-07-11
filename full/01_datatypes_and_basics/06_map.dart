@@ -9,7 +9,7 @@ void main() {
   print(malekith['Attack']);
   print(malekith[1]); // null
 
-  // * keyword 'new' is optional in Dart
+  //* keyword 'new' is optional in Dart
 
   Map<String, dynamic> morathi = new Map<String, dynamic>();
 
@@ -22,7 +22,8 @@ void main() {
 
   print(morathi);
 
-  morathi.addAll(malekith); //* replaced attributes of malekith
+  //* replaced attributes of malekith
+  morathi.addAll(malekith); 
 
   print(morathi); 
 }
