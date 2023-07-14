@@ -6,7 +6,7 @@ Full Dart repo. Exercises, basic functionalities and beyond.
 
 - Built-in-types
 - Generics
-- Collections: List, Set, Map
+- Collections: List, Set, Map, Iterable
 - Comments
 - Operators: Arithmetic, assignment and relational operators
 - Variables
@@ -16,6 +16,11 @@ Full Dart repo. Exercises, basic functionalities and beyond.
 - Inputs and Outputs
 - For, do while, and while loops.
 - Switch statements and expressions.
+- Functions
+- Positional parameters, named parameters
+- Arrow functions
+- Callbacks 
+- Annonymous functions
 - Labels
 - Keywords
 - Null-Safety
@@ -33,11 +38,3 @@ Full Dart repo. Exercises, basic functionalities and beyond.
 - GitHub
 
 ## Code examples:
-
-<img src="https://i.pinimg.com/originals/4b/69/89/4b6989b788bf27a3bc99411072b565c4.png"
-     alt="Dart code example 01"
-     style="margin: auto; width: 50%" />
-
-<img src="https://i.pinimg.com/originals/34/8a/29/348a297e4c9df06c2945c28d61f49c70.png"
-     alt="Dart code example 02"
-     style="margin: auto; width: 50%" />
