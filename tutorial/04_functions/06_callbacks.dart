@@ -1,7 +1,7 @@
 void main(List<String> args) {
   //* This is a anonymous function (function with no-name). Not every callback is an anonymous function.
   getUser('1', (Map<String, String> user) {
-    print(user);
+    print('$user : callback is called.');
   });
 }
 
