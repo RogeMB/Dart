@@ -20,7 +20,7 @@ Full Dart repo. Exercises, basic functionalities and beyond.
 - Positional parameters, named parameters
 - Arrow functions
 - Callbacks 
-- Annonymous functions
+- Anonymous functions
 - Labels
 - Keywords
 - Null-Safety
