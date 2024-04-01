@@ -17,7 +17,7 @@ void main(List<String> args) {
       .whenComplete(printOrderMessage);
 
 }
-// finally clause always will be executed even if the Future throws an error.
+//* finally clause always will be executed even if the Future throws an error.
 Future<void> printOrderMessage() async {
   try {
     print('Awaiting for order...');

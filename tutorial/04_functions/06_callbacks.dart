@@ -5,7 +5,7 @@ void main(List<String> args) {
   });
 }
 
-// Callback function is a function that is passed as an argument to another function.
+//* Callback function is a function that is passed as an argument to another function.
 void getUser(String id, Function callback) {
   Map<String, String> user = {'id': id, 'name': 'Roge'};
   callback(user);

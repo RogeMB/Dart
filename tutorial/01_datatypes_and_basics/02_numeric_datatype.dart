@@ -12,5 +12,5 @@ void main() {
   print(a + b + c);
   print(d);
   print(e);
-  print(result.runtimeType);
+  print(result.runtimeType); //* .runtimeType will print the type of a variable.
 }

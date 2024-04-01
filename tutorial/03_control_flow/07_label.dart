@@ -1,6 +1,6 @@
 void main() {
-  // Label is used to identify a block of code, we can use it in any block of code.
-  // Label name must be unique and followed by a colon (:).
+  //* Label is used to identify a block of code, we can use it in any block of code.
+  //* Label name must be unique and followed by a colon (:).
 
   outerLoop:
   for (int i = 0; i < 10; i++) {

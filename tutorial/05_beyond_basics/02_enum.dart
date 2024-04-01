@@ -1,5 +1,7 @@
 void main(List<String> args) {
   Rates rate = Rates.EUR;
+  String rateValue = rate.name;
+  print("Value: $rateValue");
 
   switch (rate) {
     case Rates.USD:
@@ -16,14 +18,15 @@ void main(List<String> args) {
   }
 }
 
-// Uppercase in the first letter
+//* Uppercase in the first letter
 enum Rates { USD, EUR, JPY }
 
-// example of a Enum class
-
+//* Example of a Enum class:
 enum Vehicle implements Comparable<Vehicle> {
-  // instance variables must be final and must be declared in the beginning of the class.
+  // All instance variables must be final and must be declared in the beginning of the declaration..
   // All generative constructors must be constant.
+  // Factory constructors can only return one of the fixed, known enum instances.
+  // No overrides for index, hashCode or equality operators.
 
   car(tires: 4, passengers: 5, carbonPerKm: 400),
   bus(tires: 6, passengers: 50, carbonPerKm: 800),

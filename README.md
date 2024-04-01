@@ -6,7 +6,7 @@ Full Dart repo. Exercises, basic functionalities and beyond.
 
 - Built-in-types
 - Generics
-- Collections: List, Set, Map, Iterable
+- Collections: List, Set, Map, Queue, Iterable
 - Comments
 - Operators: Arithmetic, assignment and relational operators
 - Variables
@@ -19,9 +19,18 @@ Full Dart repo. Exercises, basic functionalities and beyond.
 - Functions
 - Positional parameters, named parameters
 - Arrow functions
-- Callbacks 
+- Callbacks
 - Anonymous functions
 - Labels
+- Enum
+- Futures and Streams
+- Asynchronous functions
+- Try Catch blocks
+- Async await blocks
+- Error Handling
+- Classes
+- Constructors by default and named constructors
+- Setters, Getters
 - Keywords
 - Null-Safety
 - Null-check

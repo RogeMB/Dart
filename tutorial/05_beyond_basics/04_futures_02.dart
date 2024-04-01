@@ -7,6 +7,7 @@ void main(List<String> args) {
   print(Directory.current.path);
 
   /// Windows
+  // ignore: unused_local_variable
   File file2 = File(Directory.current.path + '\\assets\\file.txt');
 
   if (file.existsSync()) {
